@@ -19,9 +19,9 @@ const HistoryCard = (props: Props) => {
         <CardTitle className="text-2xl font-bold">History</CardTitle>
         <History size={28} strokeWidth={2.5} />
       </CardHeader>
-      <CardContent>
+      <CardContent> 
         <p className="text-sm text-muted-foreground">
-          View past quiz attempts.
+          View your past quiz attempts.
         </p>
       </CardContent>
     </Card>
